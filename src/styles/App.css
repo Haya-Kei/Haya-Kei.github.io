@@ -19,6 +19,29 @@
 .Salesforce-CRM---AI-Scheduler-UX-UI-Design-4-hsla { color: hsla(67, 84, 66, 1); }
 .Salesforce-CRM---AI-Scheduler-UX-UI-Design-5-hsla { color: hsla(56, 84, 68, 1); }
 
+
+@font-face {
+    font-family: 'Tusker Grotesk 2600';
+    src: url('../font/TuskerGrotesk-2600Semibold.eot');
+    src: local('../font/Tusker Grotesk 2600 Semibold'), local('TuskerGrotesk-2600Semibold'),
+        url('../font/TuskerGrotesk-2600Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../font/TuskerGrotesk-2600Semibold.woff2') format('woff2'),
+        url('../font/TuskerGrotesk-2600Semibold.woff') format('woff'),
+        url('../font/TuskerGrotesk-2600Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('../font/PPNeueMontreal-Medium.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
 .h6 {
   text-decoration: none;
   font-family: 'Neue Montreal', sans-serif;
