@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.4da468db.css",
+    "main.css": "/static/css/main.39d40e7e.css",
     "main.js": "/static/js/main.b3ac1efc.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/PPNeueMontreal-Medium.otf": "/static/media/PPNeueMontreal-Medium.0f34f4714f1b26e0dedc.otf",
+    "static/media/TuskerGrotesk-2600Semibold.eot": "/static/media/TuskerGrotesk-2600Semibold.0ce820488ee72522c016.eot",
+    "static/media/TuskerGrotesk-2600Semibold.ttf": "/static/media/TuskerGrotesk-2600Semibold.3fe78d062ec285995075.ttf",
+    "static/media/TuskerGrotesk-2600Semibold.woff": "/static/media/TuskerGrotesk-2600Semibold.ad136864c052d307e353.woff",
+    "static/media/TuskerGrotesk-2600Semibold.woff2": "/static/media/TuskerGrotesk-2600Semibold.9a0a854c71271d9456f9.woff2",
     "index.html": "/index.html",
-    "main.4da468db.css.map": "/static/css/main.4da468db.css.map",
+    "main.39d40e7e.css.map": "/static/css/main.39d40e7e.css.map",
     "main.b3ac1efc.js.map": "/static/js/main.b3ac1efc.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4da468db.css",
+    "static/css/main.39d40e7e.css",
     "static/js/main.b3ac1efc.js"
   ]
 }
