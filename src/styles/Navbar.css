@@ -5,13 +5,8 @@ header {
   right: 28px;
   z-index: 11;
   height: 55px;
-  overflow: hidden;
-
 }
 
-.main-navigation {
-  position: relative;
-}
 
 
 ol {
@@ -31,12 +26,12 @@ nav [class*="main-navigation_menu"] ol li :after {
   margin-right: .5rem;
 }
 
-nav[class="main-navigation"] {
+.main-navigation {
   padding: 1.625rem 0rem 1.5rem 0rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  border-bottom: 1px solid;
+  border-bottom: 0.6px solid rgba(245, 238, 230, .5);
   position: relative;
 }
 
@@ -71,7 +66,7 @@ div[class*="menu"] ol li a:hover{
     margin-top: -50px; /* オフセットとして調整 */
 }
 
-div [class*="wrap-header--padding"] {
+header [class*="wrap-header--padding"] {
   position: relative;
 }
 
