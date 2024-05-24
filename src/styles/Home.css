@@ -1,0 +1,9 @@
+div [class*="intro"] {
+  font-family: "Tusker Grotesk 2600 Semibold";
+  font-size: 150px;
+  text-transform: uppercase;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1em;
+  color: #f2e8df;
+}

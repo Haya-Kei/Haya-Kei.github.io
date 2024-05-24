@@ -1,0 +1,91 @@
+header {
+  position: fixed;
+  top: 0px;
+  left: 28px;
+  right: 28px;
+  z-index: 11;
+  height: 55px;
+  overflow: hidden;
+
+}
+
+.main-navigation {
+  position: relative;
+}
+
+
+ol {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+nav [class*="main-navigation_menu"] ol li {
+  margin-left: .5rem;
+}
+
+nav [class*="main-navigation_menu"] ol li :after {
+  content: ".";
+  position: relative;
+  margin-right: .5rem;
+}
+
+nav[class="main-navigation"] {
+  padding: 1.625rem 0rem 1.5rem 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  position: relative;
+}
+
+div[class*="title"] a {
+  display: flex;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f2e8df;
+}
+
+div[class*="title"] a:hover{
+  color: #BFB4AE;
+  transition-duration: 0.2s;
+}
+
+div[class*="menu"] ol li a {
+  display: flex;
+  position: relative;
+  text-decoration: none;
+  color: #f2e8df;
+}
+
+div[class*="menu"] ol li a:hover{
+  color: #BFB4AE;
+  transition-duration: 0.2s;
+}
+
+
+#home, #projects, #info, #contact, #faq {
+    padding-top: 50px; /* ナビゲーションバーの高さに応じて調整 */
+    margin-top: -50px; /* オフセットとして調整 */
+}
+
+div [class*="wrap-header--padding"] {
+  position: relative;
+}
+
+div [class*="scroller"] {
+  left: -28px;
+  right: -28px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(19, 19, 19, .15);
+  backdrop-filter: blur(6px);
+  z-index: -1;
+}
+
+header {
+  position: fixed;
+}
