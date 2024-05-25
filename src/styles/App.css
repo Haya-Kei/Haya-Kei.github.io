@@ -36,20 +36,19 @@
 
 @font-face {
     font-family: 'Neue Montreal';
-    src: url('../font/PPNeueMontreal-Medium.otf');
-    font-weight: 1000;
+    src: url('../font/PP Neue Montreal Medium.woff') format('woff');
     font-style: normal;
     font-display: swap;
 }
 
 .h6 {
   text-decoration: none;
-  font-family: 'Neue Montreal', sans-serif;
+  font-family: 'Neue Montreal';
   font-weight: 600;
 }
 
 body {
-    font-family: 'Neue Montreal', sans-serif;
+    font-family: 'Neue Montreal';
     margin: 0;
     padding: 0;
     background-color: #0D0000;
@@ -65,4 +64,6 @@ body {
 .main-wrapper {
   position: absolute;
   top: 250px;
+  padding-left: 20;
+  padding-right: 20;
 }

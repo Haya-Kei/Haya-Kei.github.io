@@ -2,7 +2,7 @@ import "./styles/Navbar.css"
 
 function Navbar() {
     return (
-    <header class="navigation-wrapper">
+    <header className="navigation-wrapper">
       <nav className="wrap-header--padding">
         <nav className="main-navigation">
           <div className="main-navigation_title">
