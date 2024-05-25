@@ -50,8 +50,8 @@
 body {
     font-family: 'Neue Montreal';
     margin: 0;
-    padding: 0;
-    background-color: #0D0000;
+    padding: 15pt;
+    background-color: #00060d;
     color: #333;
     -webkit-font-smoothing: antialiased;
 }
