@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.7f158416.css",
+    "main.css": "/static/css/main.77b1a0c5.css",
     "main.js": "/static/js/main.e39eea63.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
     "static/media/PP Neue Montreal Medium.woff": "/static/media/PP Neue Montreal Medium.419c75c9af1ae11bf6f3.woff",
@@ -9,12 +9,12 @@
     "static/media/TuskerGrotesk-2600Semibold.woff": "/static/media/TuskerGrotesk-2600Semibold.ad136864c052d307e353.woff",
     "static/media/TuskerGrotesk-2600Semibold.woff2": "/static/media/TuskerGrotesk-2600Semibold.9a0a854c71271d9456f9.woff2",
     "index.html": "/index.html",
-    "main.7f158416.css.map": "/static/css/main.7f158416.css.map",
+    "main.77b1a0c5.css.map": "/static/css/main.77b1a0c5.css.map",
     "main.e39eea63.js.map": "/static/js/main.e39eea63.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f158416.css",
+    "static/css/main.77b1a0c5.css",
     "static/js/main.e39eea63.js"
   ]
 }
