@@ -33,22 +33,34 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Neue Montreal Medium';
+    src: url('../font/PPNeueMontreal-Medium.woff2') format('woff2'),
+        url('../font/PPNeueMontreal-Medium.woff') format('woff'),
+        url('../font/PPNeueMontreal-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
 
 @font-face {
-    font-family: 'Neue Montreal';
-    src: url('../font/PP Neue Montreal Medium.woff') format('woff');
+    font-family: 'Neue Montreal Book';
+    src: url('../font/PPNeueMontreal-Book.woff2') format('woff2'),
+        url('../font/PPNeueMontreal-Book.woff') format('woff'),
+        url('../font/PPNeueMontreal-Book.ttf') format('truetype');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 .h6 {
   text-decoration: none;
-  font-family: 'Neue Montreal';
+  font-family: 'Neue Montreal Book';
   font-weight: 600;
 }
 
 body {
-    font-family: 'Neue Montreal';
+    font-family: 'Neue Montreal Book';
     margin: 0;
     padding: 15pt;
     background-color: #00060d;
