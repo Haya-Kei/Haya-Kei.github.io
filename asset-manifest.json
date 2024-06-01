@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6ef1dbb.css",
-    "main.js": "/static/js/main.0616035f.js",
+    "main.css": "/static/css/main.039b4c78.css",
+    "main.js": "/static/js/main.de24c083.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/tree_image.PNG": "/static/media/tree_image.5dd25920ef0fb5527165.PNG",
     "static/media/hiyoshi_image.JPG": "/static/media/hiyoshi_image.464bffdfef6875181cbd.JPG",
     "static/media/PPNeueMontreal-Medium.ttf": "/static/media/PPNeueMontreal-Medium.4fb97f6cf31f70474b51.ttf",
     "static/media/PPNeueMontreal-Book.ttf": "/static/media/PPNeueMontreal-Book.ed0f2d96a7b146d3b923.ttf",
@@ -20,12 +21,12 @@
     "static/media/TuskerGrotesk-2600Semibold.woff2": "/static/media/TuskerGrotesk-2600Semibold.9a0a854c71271d9456f9.woff2",
     "static/media/TuskerGrotesk-1800Super.woff2": "/static/media/TuskerGrotesk-1800Super.033d413062af3eeae519.woff2",
     "index.html": "/index.html",
-    "main.e6ef1dbb.css.map": "/static/css/main.e6ef1dbb.css.map",
-    "main.0616035f.js.map": "/static/js/main.0616035f.js.map",
+    "main.039b4c78.css.map": "/static/css/main.039b4c78.css.map",
+    "main.de24c083.js.map": "/static/js/main.de24c083.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6ef1dbb.css",
-    "static/js/main.0616035f.js"
+    "static/css/main.039b4c78.css",
+    "static/js/main.de24c083.js"
   ]
 }
