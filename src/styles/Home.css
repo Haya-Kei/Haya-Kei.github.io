@@ -1,9 +1,27 @@
-div [class*="intro"] {
-  font-family: "Tusker Grotesk 2600";
-  font-size: 150px;
+.name_first {
+  font-family: "Tusker Grotesk 1800 Super";
+  font-size: 200px;
   text-transform: uppercase;
   padding-left: 20px;
   padding-right: 20px;
-  line-height: 1em;
+  padding-bottom: 0;
+  padding-top: 50px ;
   color: #f2e8df;
+  line-height: 1.05;
+}
+
+.name_second {
+  font-family: "Tusker Grotesk 1800 Super";
+  padding-top: 0;
+  font-size: 200px;
+  text-transform: uppercase;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #f2e8df;
+  line-height: 1.05;
+}
+
+.intro {
+  background-color: #03070C;
+  padding-top: 60px;
 }

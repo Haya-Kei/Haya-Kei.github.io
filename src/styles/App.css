@@ -19,6 +19,26 @@
 .Salesforce-CRM---AI-Scheduler-UX-UI-Design-4-hsla { color: hsla(67, 84, 66, 1); }
 .Salesforce-CRM---AI-Scheduler-UX-UI-Design-5-hsla { color: hsla(56, 84, 68, 1); }
 
+/* Color Theme Swatches in Hex */
+.Rich-Black-Palette--1-hex { color: #0C1F33; }
+.Rich-Black-Palette--2-hex { color: #091726; }
+.Rich-Black-Palette--3-hex { color: #060F18; }
+.Rich-Black-Palette--4-hex { color: #03070C; }
+.Rich-Black-Palette--5-hex { color: #000000; }
+
+/* Color Theme Swatches in RGBA */
+.Rich-Black-Palette--1-rgba { color: rgba(11, 31, 51, 1); }
+.Rich-Black-Palette--2-rgba { color: rgba(8, 23, 38, 1); }
+.Rich-Black-Palette--3-rgba { color: rgba(5, 14, 23, 1); }
+.Rich-Black-Palette--4-rgba { color: rgba(2, 7, 11, 1); }
+.Rich-Black-Palette--5-rgba { color: rgba(0, 0, 0, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Rich-Black-Palette--1-hsla { color: hsla(210, 61, 12, 1); }
+.Rich-Black-Palette--2-hsla { color: hsla(211, 61, 9, 1); }
+.Rich-Black-Palette--3-hsla { color: hsla(210, 59, 5, 1); }
+.Rich-Black-Palette--4-hsla { color: hsla(213, 59, 2, 1); }
+.Rich-Black-Palette--5-hsla { color: hsla(0, 0, 0, 1); }
 
 @font-face {
     font-family: 'Tusker Grotesk 2600';
@@ -29,6 +49,19 @@
         url('../font/TuskerGrotesk-2600Semibold.woff') format('woff'),
         url('../font/TuskerGrotesk-2600Semibold.ttf') format('truetype');
     font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tusker Grotesk 1800 Super';
+    src: url('../font/TuskerGrotesk-1800Super.eot');
+    src: local('../font/Tusker Grotesk 1800 Super'), local('TuskerGrotesk-1800Super'),
+        url('../font/TuskerGrotesk-1800Super.eot?#iefix') format('embedded-opentype'),
+        url('../font/TuskerGrotesk-1800Super.woff2') format('woff2'),
+        url('../font/TuskerGrotesk-1800Super.woff') format('woff'),
+        url('../font/TuskerGrotesk-1800Super.ttf') format('truetype');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
@@ -62,20 +95,61 @@
 body {
     font-family: 'Neue Montreal Book';
     margin: 0;
-    padding: 15pt;
-    background-color: #00060d;
+    padding: 0;
+    background-color: #060F18;
     color: #333;
     -webkit-font-smoothing: antialiased;
+    position: relative;
 }
 
-#home, #projects, #info, #contact, #faq {
-    padding-top: 50px; /* ナビゲーションバーの高さに応じて調整 */
-    margin-top: -50px; /* オフセットとして調整 */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/noise_texture.png');
+  background-size: 267px 267px;
+  background-repeat: repeat;
+  z-index: -299;
+  opacity: .0;
+  padding: 0;
 }
 
 .main-wrapper {
+  z-index: 10;
   position: absolute;
-  top: 250px;
-  padding-left: 20;
-  padding-right: 20;
+  top: 0px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+SmoothScroll {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+}
+
+div #Home {
+  padding: 0;
+}
+
+.cursor {
+}
+
+h1 {
+  font-family: "Neue Montreal Medium";
+  color: #f2e8df;
+}
+
+h2 p {
+  font-family: "Neue Montreal Book";
+  color: #f2e8df;
 }

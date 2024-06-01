@@ -1,6 +1,6 @@
-// src/components/SmoothScroll.js
 import React, { useEffect, useRef } from 'react';
 import LocomotiveScroll from 'locomotive-scroll';
+import 'locomotive-scroll/dist/locomotive-scroll.css';
 
 const SmoothScroll = ({ children }) => {
   const scrollRef = useRef(null);
@@ -9,6 +9,8 @@ const SmoothScroll = ({ children }) => {
     const scroll = new LocomotiveScroll({
       el: scrollRef.current,
       smooth: true,
+      getDirection: true,
+      reloadOnContextChange: true,
     });
 
     return () => {

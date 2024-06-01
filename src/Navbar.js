@@ -10,11 +10,11 @@ function Navbar() {
           </div>
           <div className="main-navigation_menu">
             <ol>
-              <li className="h6"><a href="#home">Home</a></li>
-              <li className="h6"><a href="#projects">Projects</a></li>
-              <li className="h6"><a href="#info">Info</a></li>
-              <li className="h6"><a href="#contact">Contact</a></li>
-              <li className="h6"><a href="#faq">FAQ</a></li>
+              <li className="h6"><a href="/#home">Home</a></li>
+              <li className="h6"><a href="/#projects">Projects</a></li>
+              <li className="h6"><a href="/#info">Info</a></li>
+              <li className="h6"><a href="/#contact">Contact</a></li>
+              <li className="h6"><a href="/#faq">FAQ</a></li>
             </ol>
           </div>
         </nav>

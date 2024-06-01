@@ -5,7 +5,7 @@ import './styles/Info.css'
 const Info = () => {
   return (
     <div>
-      <img src= {hiyoshi} className = 'image_hiyoshi' alt="hiyoshi image"/>
+      <img src= {hiyoshi} className = 'image_hiyoshi' alt="hiyoshi"/>
     </div>
   )
 }
