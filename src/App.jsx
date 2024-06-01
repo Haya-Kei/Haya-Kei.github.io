@@ -21,8 +21,6 @@ function App() {
                   <div id="home"><Home /></div>
                   <div id="projects"><Projects /></div>
                   <div id="info"><Info /></div>
-                  <div id="info"><Info /></div>
-                  <div id="info"><Info /></div>
                   <div id="contact"><Contact /></div>
                   <div id="faq"><FAQ /></div>
                 </SmoothScroll>

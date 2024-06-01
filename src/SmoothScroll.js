@@ -13,6 +13,19 @@ const SmoothScroll = ({ children }) => {
       reloadOnContextChange: true,
     });
 
+    // アンカージャンプのサポート
+    const links = document.querySelectorAll('a[href^="#"]');
+    links.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = link.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+          scroll.scrollTo(targetElement);
+        }
+      });
+    });
+
     return () => {
       if (scroll) scroll.destroy();
     };

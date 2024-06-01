@@ -12,7 +12,7 @@ html.has-scroll-dragging {
   overflow: hidden; }
 
 .has-scroll-smooth [data-scroll-container] {
-  min-height: 100vh; }
+  overflow: hidden; }
 
 [data-scroll-direction="horizontal"] [data-scroll-container] {
   height: 100vh;
@@ -69,15 +69,17 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* 横スクロールを防止 */
+  overflow: hidden; /* 横スクロールを防止 */
 }
 
 [data-scroll-container] {
+  min-height: 100vh;
   height: 100%;
   overflow-y: auto; /* 縦スクロールを許可 */
+  will-change: transform;
 }
 
-.has-scroll-smooth {
+.has-scroll-smooth body {
   overflow: hidden;
 }
 
