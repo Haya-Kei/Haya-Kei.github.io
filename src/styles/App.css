@@ -153,3 +153,11 @@ h2 p {
   font-family: "Neue Montreal Book";
   color: #f2e8df;
 }
+
+.section-title {
+  font-family: 'Neue Montreal Book';
+  text-transform: uppercase;
+  color: #f2e8df;
+  font-size: 20px;
+  margin-bottom: 10px;
+}

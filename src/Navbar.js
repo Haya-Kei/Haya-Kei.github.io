@@ -11,11 +11,11 @@ function Navbar() {
           </div>
           <div className="main-navigation_menu">
             <ol>
-              <li className="h6"><AnchorLink href="#home">Home</AnchorLink></li>
-              <li className="h6"><AnchorLink href="#projects">Projects</AnchorLink></li>
-              <li className="h6"><AnchorLink href="#info">Info</AnchorLink></li>
-              <li className="h6"><AnchorLink href="#contact">Contact</AnchorLink></li>
-              <li className="h6"><AnchorLink href="#faq">FAQ</AnchorLink></li>
+              <li className="h6"><AnchorLink href="#home" offset='100'>Home</AnchorLink></li>
+              <li className="h6"><AnchorLink href="#projects" offset='100'>Projects</AnchorLink></li>
+              <li className="h6"><AnchorLink href="#info" offset='100'>Info</AnchorLink></li>
+              <li className="h6"><AnchorLink href="#contact" offset='100'>Contact</AnchorLink></li>
+              <li className="h6"><AnchorLink href="#faq" offset='100'>FAQ</AnchorLink></li>
             </ol>
           </div>
         </nav>

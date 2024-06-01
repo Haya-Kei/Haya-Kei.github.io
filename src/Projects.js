@@ -1,6 +1,8 @@
-import { Canvas } from '@react-three/fiber'
+import { Canvas } from '@react-three/fiber';
+import './styles/Projects.css';
 function Projects() {
-    return <div>
+    return <div className='projects'>
+    <div className='section-title'>Projects</div>
     <>
       <Canvas>
         <mesh>

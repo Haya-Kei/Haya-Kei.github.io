@@ -102,3 +102,6 @@ header {
   position: fixed;
 }
 
+AnchorLink {
+  position: sticky;
+}
