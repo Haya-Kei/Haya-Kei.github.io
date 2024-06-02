@@ -1,4 +1,4 @@
-import "./styles/Navbar.css"
+import "../styles/Navbar.css"
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 function Navbar() {

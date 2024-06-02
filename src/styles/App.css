@@ -93,13 +93,13 @@
 }
 
 body {
-    font-family: 'Neue Montreal Book';
-    margin: 0;
-    padding: 0;
-    background-color: #060F18;
-    color: #333;
-    -webkit-font-smoothing: antialiased;
-    position: relative;
+  font-family: 'Neue Montreal Book';
+  margin: 0;
+  padding: 0;
+  background-color: #060F18;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
 }
 
 body::before {
@@ -129,14 +129,6 @@ html {
   scroll-behavior: smooth;
 }
 
-SmoothScroll {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: fixed;
-}
-
 div #Home {
   padding: 0;
 }
@@ -160,4 +152,9 @@ h2 p {
   color: #f2e8df;
   font-size: 20px;
   margin-bottom: 10px;
+}
+
+::selection {
+  background-color: #F2BB16;
+  color: #010326;
 }
