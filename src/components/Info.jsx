@@ -10,10 +10,10 @@ const Info = () => {
     <div>
       <img src= {hiyoshi} className = 'image_hiyoshi' alt="hiyoshi"/>
       <img src= {tree} className ='image_hiyoshi' alt='tree'/>
-      <video src={spiderVideo} width="300" loop autoPlay muted className='video_spider'>
+      <video src={spiderVideo} width="300" playsinline loop autoPlay muted className='video_spider'>
         Your browser does not support video tag.
       </video>
-      <video src={windmilVideo} width="300" loop autoPlay muted className='video_spider'>
+      <video src={windmilVideo} width="300" playsinline loop autoPlay muted className='video_spider'>
         Your browser does not support video tag.
       </video>
     </div>
