@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.57b84a73.css",
-    "main.js": "/static/js/main.3f6c5d1f.js",
+    "main.js": "/static/js/main.cade698d.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
     "static/media/marching-spider.MP4": "/static/media/marching-spider.9439790f43856d4f466e.MP4",
+    "static/media/windmil_animation.mp4": "/static/media/windmil_animation.94c42337e813098452ee.mp4",
     "static/media/tree_image.PNG": "/static/media/tree_image.5dd25920ef0fb5527165.PNG",
     "static/media/hiyoshi_image.JPG": "/static/media/hiyoshi_image.464bffdfef6875181cbd.JPG",
     "static/media/PPNeueMontreal-Medium.ttf": "/static/media/PPNeueMontreal-Medium.4fb97f6cf31f70474b51.ttf",
@@ -23,11 +24,11 @@
     "static/media/TuskerGrotesk-1800Super.woff2": "/static/media/TuskerGrotesk-1800Super.033d413062af3eeae519.woff2",
     "index.html": "/index.html",
     "main.57b84a73.css.map": "/static/css/main.57b84a73.css.map",
-    "main.3f6c5d1f.js.map": "/static/js/main.3f6c5d1f.js.map",
+    "main.cade698d.js.map": "/static/js/main.cade698d.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.57b84a73.css",
-    "static/js/main.3f6c5d1f.js"
+    "static/js/main.cade698d.js"
   ]
 }
