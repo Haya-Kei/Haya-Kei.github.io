@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.57b84a73.css",
-    "main.js": "/static/js/main.ef2f3459.js",
+    "main.css": "/static/css/main.4d070d08.css",
+    "main.js": "/static/js/main.5130c800.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
     "static/media/marching-spider.MP4": "/static/media/marching-spider.9439790f43856d4f466e.MP4",
     "static/media/windmil_animation.mp4": "/static/media/windmil_animation.94c42337e813098452ee.mp4",
@@ -23,12 +23,12 @@
     "static/media/TuskerGrotesk-2600Semibold.woff2": "/static/media/TuskerGrotesk-2600Semibold.9a0a854c71271d9456f9.woff2",
     "static/media/TuskerGrotesk-1800Super.woff2": "/static/media/TuskerGrotesk-1800Super.033d413062af3eeae519.woff2",
     "index.html": "/index.html",
-    "main.57b84a73.css.map": "/static/css/main.57b84a73.css.map",
-    "main.ef2f3459.js.map": "/static/js/main.ef2f3459.js.map",
+    "main.4d070d08.css.map": "/static/css/main.4d070d08.css.map",
+    "main.5130c800.js.map": "/static/js/main.5130c800.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57b84a73.css",
-    "static/js/main.ef2f3459.js"
+    "static/css/main.4d070d08.css",
+    "static/js/main.5130c800.js"
   ]
 }
