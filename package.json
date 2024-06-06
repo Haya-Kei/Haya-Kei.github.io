@@ -4,11 +4,13 @@
   "homepage": "http://username.github.io",
   "private": true,
   "dependencies": {
+    "@react-three/drei": "^9.106.0",
     "@react-three/fiber": "^8.16.6",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "gh-pages": "^6.1.1",
+    "leva": "^0.9.35",
     "locomotive-scroll": "^4.1.4",
     "react": "^18.3.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
