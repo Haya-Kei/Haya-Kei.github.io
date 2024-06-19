@@ -1,12 +1,12 @@
 .image_hiyoshi {
-  width: 90vw;
+  width: 100%;
   z-index: 300;
 }
 
 .video_spider {
-  width: 90vw;
+  width: 100%;
 }
 
 .image-container {
-  padding: 0px 5vw 0px 5vw;
+  padding: 0px 5% 0px 5%;
 }

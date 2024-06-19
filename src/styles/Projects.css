@@ -5,10 +5,10 @@
   color: #f2e8df;
   line-height: 1.3;
   position: relative;
-  padding: 0px 5vw 0px 5vw;
+  padding: 0px 5% 0px 5%;
 }
 
 .canvas-container {
   margin-bottom: 100px;
-  width: 90vw;
+  width: 100%;
 }
