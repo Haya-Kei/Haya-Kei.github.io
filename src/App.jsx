@@ -1,4 +1,4 @@
-import { BrowserRouter,  } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
 import Projects from "./components/Projects.jsx";
 import Info from "./components/Info.jsx";

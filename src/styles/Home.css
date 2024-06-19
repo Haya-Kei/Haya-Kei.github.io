@@ -2,8 +2,6 @@
   font-family: "Tusker Grotesk 1800 Super";
   font-size: 200px;
   text-transform: uppercase;
-  padding-left: 20px;
-  padding-right: 20px;
   padding-bottom: 0;
   padding-top: 50px ;
   color: #f2e8df;
@@ -15,13 +13,11 @@
   padding-top: 0;
   font-size: 200px;
   text-transform: uppercase;
-  padding-left: 20px;
-  padding-right: 20px;
   color: #f2e8df;
   line-height: 1.05;
 }
 
 .intro {
   background-color: #03070C;
-  padding-top: 60px;
+  padding: 0px 5vw 0px 5vw;
 }

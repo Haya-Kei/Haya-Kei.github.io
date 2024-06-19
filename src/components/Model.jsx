@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import { useGLTF, Text, MeshTransmissionMaterial, PresentationControls} from '@react-three/drei';
 import { useThree, useFrame} from '@react-three/fiber';
-import { useControls } from 'leva';
 
 const Model = () => {
 
@@ -13,14 +12,6 @@ const Model = () => {
   //   mesh.current.rotation.x += 0.01
   // })
 
-  const materialProps = useControls({
-      thickness: {value: 0.2, min: 0, max: 3, step: 0.05},
-      roughness: {value: 0, min: 0, max: 1, step: 0.1 },
-      transmission: {value: 1, min: 0, max: 1, step: 0.1},
-      ior: {value: 1.2, min: 0, max: 3, step: 0.1 }, 
-      chromaticAberration: { value: 0.02, min: 0, max: 1},
-      backside:{value: true},
-  })
 
   return (
   <group  scale={viewport.width / 26}>
@@ -40,7 +31,7 @@ const Model = () => {
           azimuth={[-Infinity, Infinity]} // 水平方向の制限
         >
       <mesh ref={mesh} {...nodes.Torus} position={[0, 0, 0]}>
-      <MeshTransmissionMaterial {...materialProps}/>
+      <MeshTransmissionMaterial />
       </mesh>
       </PresentationControls>
   </group>

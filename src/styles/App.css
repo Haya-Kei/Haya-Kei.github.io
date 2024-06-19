@@ -95,7 +95,6 @@
 body {
   font-family: 'Neue Montreal Book';
   margin: 0;
-  padding: 0;
   background-color: #060F18;
   color: #333;
   -webkit-font-smoothing: antialiased;
@@ -121,16 +120,10 @@ body::before {
   z-index: 10;
   position: absolute;
   top: 0px;
-  padding-left: 0;
-  padding-right: 0;
 }
 
 html {
   scroll-behavior: smooth;
-}
-
-div #Home {
-  padding: 0;
 }
 
 .cursor {
