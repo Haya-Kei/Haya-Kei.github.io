@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.63d27926.css",
+    "main.css": "/static/css/main.a0149ea2.css",
     "main.js": "/static/js/main.a4866abd.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
     "static/media/marching-spider.MP4": "/static/media/marching-spider.9439790f43856d4f466e.MP4",
@@ -23,12 +23,12 @@
     "static/media/TuskerGrotesk-2600Semibold.woff2": "/static/media/TuskerGrotesk-2600Semibold.9a0a854c71271d9456f9.woff2",
     "static/media/TuskerGrotesk-1800Super.woff2": "/static/media/TuskerGrotesk-1800Super.033d413062af3eeae519.woff2",
     "index.html": "/index.html",
-    "main.63d27926.css.map": "/static/css/main.63d27926.css.map",
+    "main.a0149ea2.css.map": "/static/css/main.a0149ea2.css.map",
     "main.a4866abd.js.map": "/static/js/main.a4866abd.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.63d27926.css",
+    "static/css/main.a0149ea2.css",
     "static/js/main.a4866abd.js"
   ]
 }
