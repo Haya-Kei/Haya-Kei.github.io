@@ -1,0 +1,49 @@
+.faq {
+  padding: 100px 5% 120px;
+  background: #03070c;
+  color: #f2e8df;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.faq__list {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.faq-item {
+  background: rgba(9, 23, 38, 0.7);
+  border-radius: 22px;
+  padding: 28px;
+  border: 1px solid rgba(82, 82, 89, 0.45);
+  backdrop-filter: blur(16px);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 0 20px 40px rgba(3, 7, 12, 0.4);
+}
+
+.faq-item h3 {
+  margin: 0;
+  font-family: 'Neue Montreal Medium';
+  font-size: 1.05rem;
+}
+
+.faq-item p {
+  margin: 0;
+  line-height: 1.7;
+  color: rgba(242, 232, 223, 0.85);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .faq {
+    padding: 80px 6% 100px;
+  }
+
+  .faq-item {
+    padding: 24px;
+  }
+}
