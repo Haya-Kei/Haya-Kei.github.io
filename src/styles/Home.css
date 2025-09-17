@@ -1,23 +1,54 @@
 .name_first {
   font-family: "Tusker Grotesk 1800 Super";
-  font-size: 200px;
+  font-size: clamp(4.5rem, 12vw, 12.5rem);
   text-transform: uppercase;
   padding-bottom: 0;
-  padding-top: 50px ;
+  padding-top: 20px;
   color: #f2e8df;
-  line-height: 1.05;
+  line-height: 1.02;
 }
 
 .name_second {
   font-family: "Tusker Grotesk 1800 Super";
   padding-top: 0;
-  font-size: 200px;
+  font-size: clamp(4.5rem, 12vw, 12.5rem);
   text-transform: uppercase;
   color: #f2e8df;
-  line-height: 1.05;
+  line-height: 1.02;
 }
 
 .intro {
-  background-color: #03070C;
-  padding: 60px 5% 0px 5%;
+  background: linear-gradient(135deg, #03070c 0%, rgba(3, 7, 12, 0.9) 35%, rgba(9, 23, 38, 0.75) 100%);
+  padding: 80px 5% 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.intro__name {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro__role {
+  font-family: "Neue Montreal Medium";
+  font-size: clamp(1.1rem, 2.2vw, 1.4rem);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(207, 242, 80, 0.85);
+  margin: 0;
+}
+
+.intro__statement {
+  max-width: 680px;
+  line-height: 1.8;
+  color: rgba(242, 232, 223, 0.85);
+  font-size: clamp(1rem, 2vw, 1.1rem);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    padding: 70px 6% 56px;
+  }
 }
