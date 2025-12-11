@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { useGLTF, Text, MeshTransmissionMaterial, PresentationControls} from '@react-three/drei';
-import { useThree, useFrame} from '@react-three/fiber';
+import { useThree } from '@react-three/fiber';
 
 const Model = () => {
 
