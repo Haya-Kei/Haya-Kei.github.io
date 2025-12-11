@@ -24,7 +24,7 @@
   overflow: hidden;
   border: 1px solid rgba(82, 82, 89, 0.45);
   background: linear-gradient(160deg, rgba(207, 242, 80, 0.12), rgba(3, 7, 12, 0.9));
-  min-height: 420px;
+  min-height: 320px;
 }
 
 .canvas-container canvas {
@@ -108,7 +108,7 @@
   }
 
   .canvas-container {
-    min-height: 360px;
+    min-height: 280px;
   }
 }
 
