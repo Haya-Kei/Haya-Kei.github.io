@@ -109,7 +109,7 @@ body::before {
   height: 100%;
   width: 100%;
   background-image: url('../img/noise_texture.png');
-  background-size: 267px 267px;
+  background-size: 150px 150px;
   background-repeat: repeat;
   z-index: -299;
   opacity: .0;
