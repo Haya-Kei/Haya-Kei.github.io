@@ -10,7 +10,6 @@ function Navbar() {
         </Link>
         <nav className="site-header__nav">
           <Link to="/gallery">Gallery</Link>
-          <Link to="/blog">Blog</Link>
         </nav>
       </div>
     </header>

@@ -1,5 +1,4 @@
 import { useEffect, useRef } from "react";
-import BlogCarousel from "./blog/BlogCarousel";
 import "../styles/Portfolio.css";
 import heroPhoto from "../img/DSC06673_1.45.1.png";
 import stackPhotoA from "../img/DSC06673_1.37.1.png";
@@ -19,37 +18,6 @@ const galleryPhotos = [
 ];
 
 const galleryLoop = [...galleryPhotos, ...galleryPhotos];
-
-const projects = [
-  {
-    name: "CHAPPY",
-    role: "AI Companion App",
-    description:
-      "Long-term memory chat experience with persona alignment, delivered end-to-end from UX to mobile UI.",
-    stack: "Flutter / Firebase / PostgreSQL / Pinecone"
-  },
-  {
-    name: "Timey",
-    role: "AI Calendar Assistant",
-    description:
-      "Autonomous scheduling agent with Bedrock orchestration and Google Calendar integration.",
-    stack: "GAS / AgentCore / Amazon Bedrock"
-  },
-  {
-    name: "Creative Automation",
-    role: "Ad Image Generation",
-    description:
-      "Automated Illustrator workflows to generate hundreds of visual variations with AI copy and color systems.",
-    stack: "Illustrator Scripting / Generative AI"
-  },
-  {
-    name: "Voice Conversational Bot",
-    role: "Realtime Voice UX",
-    description:
-      "Child-friendly voice agent combining speech recognition, LLM responses, and realtime synthesis.",
-    stack: "OpenAI Whisper / Style BERT / AWS"
-  }
-];
 
 function Portfolio() {
   const rootRef = useRef(null);
@@ -115,26 +83,13 @@ function Portfolio() {
         <div className="section-inner">
           <div className="intro-grid">
             <div className="intro__content">
-              <p className="eyebrow" data-lag="0.04">
-                WE ARE
-              </p>
               <h1 className="intro__headline" data-lag="0.06">
                 Keiichi Hayashi
               </h1>
-              <p className="intro__description" data-lag="0.02">
-                Visual storytelling with a product-first mindset. Focused on
-                building quiet, deliberate experiences that translate into motion.
-              </p>
-              <a className="intro__cta" href="#gallery" data-lag="0.01">
-                View gallery
-              </a>
             </div>
             <figure className="intro__image" data-lag="0.03">
               <img src={heroPhoto} alt="Portrait photograph" loading="eager" />
             </figure>
-          </div>
-          <div className="intro__marker" data-lag="0.02">
-            Scroll
           </div>
         </div>
       </section>
@@ -142,11 +97,7 @@ function Portfolio() {
       <section className="section gallery-section" id="gallery">
         <div className="section-inner">
           <div className="section-header">
-            <p className="eyebrow">Photo Gallery</p>
-            <h2 className="section-title">Horizontal carousel</h2>
-            <p className="section-subtitle">
-              Scroll sideways to browse each frame with your trackpad or mouse.
-            </p>
+            <h2 className="section-title">Photo Gallery</h2>
           </div>
         </div>
         <div className="gallery-scroll" aria-label="Photo carousel">
@@ -163,31 +114,6 @@ function Portfolio() {
           </div>
         </div>
       </section>
-
-      <section className="section projects-section" id="projects">
-        <div className="section-inner">
-          <div className="section-header">
-            <p className="eyebrow">Selected Projects</p>
-            <h2 className="section-title">Product and AI delivery</h2>
-          </div>
-          <div className="projects-list">
-            {projects.map((project) => (
-              <article className="project-row" key={project.name}>
-                <div className="project-row__meta">
-                  <h3>{project.name}</h3>
-                  <span>{project.role}</span>
-                </div>
-                <div className="project-row__body">
-                  <p>{project.description}</p>
-                  <p className="project-row__stack">{project.stack}</p>
-                </div>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <BlogCarousel />
 
       <section className="section contact-section" id="contact">
         <div className="section-inner">

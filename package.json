@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "http://username.github.io",
+  "homepage": "https://haya-kei.github.io",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^9.106.0",
