@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.a0149ea2.css",
-    "main.js": "/static/js/main.a4866abd.js",
+    "main.css": "/static/css/main.55e208e5.css",
+    "main.js": "/static/js/main.6d79a783.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
-    "static/media/marching-spider.MP4": "/static/media/marching-spider.9439790f43856d4f466e.MP4",
-    "static/media/windmil_animation.mp4": "/static/media/windmil_animation.94c42337e813098452ee.mp4",
+    "static/media/DSC06673_1.24.1.png": "/static/media/DSC06673_1.24.1.f77d436d12d449970176.png",
+    "static/media/DSC06673_1.33.1.png": "/static/media/DSC06673_1.33.1.7b3f56765787b7cb62db.png",
+    "static/media/DSC06673_1.37.1.png": "/static/media/DSC06673_1.37.1.cf6dbe6bc0bed9cee7b7.png",
+    "static/media/DSC06673_1.45.1.png": "/static/media/DSC06673_1.45.1.cc9948264465cb1a949c.png",
+    "static/media/Untitled_1.11.1.png": "/static/media/Untitled_1.11.1.ffa725d530f209b94abb.png",
     "static/media/tree_image.PNG": "/static/media/tree_image.5dd25920ef0fb5527165.PNG",
     "static/media/hiyoshi_image.JPG": "/static/media/hiyoshi_image.464bffdfef6875181cbd.JPG",
     "static/media/PPNeueMontreal-Medium.ttf": "/static/media/PPNeueMontreal-Medium.4fb97f6cf31f70474b51.ttf",
@@ -23,12 +26,12 @@
     "static/media/TuskerGrotesk-2600Semibold.woff2": "/static/media/TuskerGrotesk-2600Semibold.9a0a854c71271d9456f9.woff2",
     "static/media/TuskerGrotesk-1800Super.woff2": "/static/media/TuskerGrotesk-1800Super.033d413062af3eeae519.woff2",
     "index.html": "/index.html",
-    "main.a0149ea2.css.map": "/static/css/main.a0149ea2.css.map",
-    "main.a4866abd.js.map": "/static/js/main.a4866abd.js.map",
+    "main.55e208e5.css.map": "/static/css/main.55e208e5.css.map",
+    "main.6d79a783.js.map": "/static/js/main.6d79a783.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0149ea2.css",
-    "static/js/main.a4866abd.js"
+    "static/css/main.55e208e5.css",
+    "static/js/main.6d79a783.js"
   ]
 }
