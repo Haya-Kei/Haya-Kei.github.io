@@ -1,31 +1,23 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
-import Projects from "./components/Projects.jsx";
-import Info from "./components/Info.jsx";
-import Contact from "./components/Contact.jsx";
-import Home from "./components/Home.jsx";
-import FAQ from "./components/FAQ.jsx";
-import SmoothScroll from "./SmoothScroll.js";
+import Portfolio from "./components/Portfolio.jsx";
+import Cursor from "./components/Cursor.jsx";
+import Gallery from "./components/Gallery.jsx";
+import BlogList from "./components/blog/BlogList.jsx";
+import BlogPost from "./components/blog/BlogPost.jsx";
 import "./styles/App.css";
-import "./styles/Info.css";
 
 function App() {
     return (
         <BrowserRouter>
-            <SmoothScroll>
-                <div id="body">
-                    <div className="cursor">
-                      <div className="main-wrapper">
-                        <Navbar />
-                        <div id="home"><Home /></div>
-                        <div id="projects"><Projects /></div>
-                        <div id="info"><Info /></div>
-                        <div id="contact"><Contact /></div>
-                        <div id="faq"><FAQ /></div>
-                      </div>
-                    </div>
-                </div>
-            </SmoothScroll>
+            <Cursor />
+            <Navbar />
+            <Routes>
+                <Route path="/" element={<Portfolio />} />
+                <Route path="/gallery" element={<Gallery />} />
+                <Route path="/blog" element={<BlogList />} />
+                <Route path="/blog/:slug" element={<BlogPost />} />
+            </Routes>
         </BrowserRouter>
     );
 }

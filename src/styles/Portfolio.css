@@ -1,0 +1,333 @@
+.portfolio-page {
+  background: var(--page-bg);
+  color: var(--page-fg);
+  position: relative;
+  z-index: 2;
+}
+
+[data-lag] {
+  will-change: transform;
+}
+
+.section {
+  padding: 110px 6% 140px;
+  scroll-margin-top: 120px;
+  position: relative;
+}
+
+.section-inner {
+  width: min(1200px, 100%);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.32em;
+  font-size: 0.7rem;
+  color: rgba(242, 232, 223, 0.7);
+}
+
+
+.section-header {
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.section-title {
+  margin: 0;
+  font-size: clamp(2rem, 3vw, 3rem);
+  font-family: "Neue Montreal Medium";
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.section-subtitle {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: rgba(242, 232, 223, 0.75);
+}
+
+.intro-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 32px;
+  padding-top: 100px;
+}
+
+
+.intro__content {
+  position: relative;
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.85fr);
+  gap: 56px;
+  align-items: end;
+}
+
+.intro__headline {
+  margin: 0;
+  font-family: "Tusker Grotesk 1800 Super";
+  font-size: 200px;
+  line-height: 1.05;
+  text-transform: uppercase;
+  color: #f2e8df;
+  padding-top: 50px;
+  padding-bottom: 0;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+}
+
+.intro__description {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: rgba(242, 232, 223, 0.78);
+}
+
+.intro__cta {
+  width: fit-content;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  font-size: 0.7rem;
+  color: #F2E8DF;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(242, 232, 223, 0.4);
+}
+
+.intro__marker {
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  font-size: 0.7rem;
+  color: rgba(242, 232, 223, 0.5);
+}
+
+.intro__image {
+  margin: 0;
+  border-radius: 0;
+  overflow: hidden;
+  background: rgba(15, 15, 15, 0.8);
+  box-shadow: none;
+  aspect-ratio: 1 / 1;
+}
+
+.intro__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-section {
+  padding-top: 90px;
+  overflow: hidden;
+}
+
+.gallery-scroll {
+  margin-top: 32px;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: none;
+  padding-bottom: 14px;
+  scrollbar-width: none;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  --carousel-size: clamp(200px, 32vw, 420px);
+  --carousel-gap: 2px;
+}
+
+.gallery-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.gallery-track {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  padding: 0 0 12px;
+  width: max-content;
+  animation: gallery-marquee 90s linear infinite;
+  will-change: transform;
+}
+
+.gallery-card {
+  position: relative;
+  border-radius: 0;
+  overflow: hidden;
+  background: rgba(15, 15, 15, 0.6);
+  box-shadow: none;
+  aspect-ratio: 1 / 1;
+  height: var(--carousel-size);
+  width: auto;
+  flex: 0 0 auto;
+  margin-right: var(--carousel-gap);
+}
+
+.gallery-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: saturate(0) grayscale(1);
+  transition: filter 0.4s ease;
+}
+
+.gallery-card:hover img {
+  filter: saturate(1) grayscale(0);
+}
+
+@media (hover: none), (pointer: coarse) {
+  .gallery-card img {
+    filter: none;
+  }
+}
+
+@keyframes gallery-marquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.projects-section {
+  padding-bottom: 160px;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  border-top: 1px solid rgba(242, 232, 223, 0.12);
+  margin-top: 32px;
+}
+
+.project-row {
+  display: grid;
+  grid-template-columns: minmax(0, 0.7fr) minmax(0, 1fr);
+  gap: 32px;
+  padding: 28px 0;
+  border-bottom: 1px solid rgba(242, 232, 223, 0.12);
+}
+
+.project-row__meta h3 {
+  margin: 0 0 8px;
+  font-family: "Neue Montreal Medium";
+  font-size: 1.2rem;
+}
+
+.project-row__meta span {
+  font-size: 0.7rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: rgba(242, 232, 223, 0.6);
+}
+
+.project-row__body p {
+  margin: 0 0 12px;
+  line-height: 1.7;
+  color: rgba(242, 232, 223, 0.78);
+}
+
+.project-row__stack {
+  margin: 0;
+  font-size: 0.7rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(242, 232, 223, 0.5);
+}
+
+@media (max-width: 1024px) {
+  .intro-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 90px 6% 110px;
+  }
+
+  .intro-section {
+    min-height: 100vh;
+    padding-top: 100px;
+  }
+
+  .intro-grid {
+    gap: 32px;
+  }
+
+  .gallery-section {
+    padding-top: 80px;
+  }
+
+  .gallery-track {
+    animation-duration: 100s;
+  }
+
+  .gallery-card {
+    height: clamp(180px, 62vw, 300px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gallery-track {
+    animation: none;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.contact-section {
+  padding-top: 120px;
+  padding-bottom: 160px;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact-link {
+  font-family: "Neue Montreal Medium";
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  color: #f2e8df;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.contact-link:hover {
+  opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    padding-top: 80px;
+    padding-bottom: 120px;
+  }
+
+  .contact-links {
+    gap: 20px;
+  }
+}

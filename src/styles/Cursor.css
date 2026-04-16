@@ -1,0 +1,32 @@
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  border: none;
+  background: rgba(242, 232, 223, 0.85);
+  transform: translate3d(0, 0, 0);
+  pointer-events: none;
+  mix-blend-mode: difference;
+  z-index: 9999;
+  transition: width 0.18s ease, height 0.18s ease, margin 0.18s ease, opacity 0.2s ease;
+}
+
+.cursor--active {
+  width: 28px;
+  height: 28px;
+  margin-left: -6px;
+  margin-top: -6px;
+}
+
+.cursor--hidden {
+  opacity: 0;
+}
+
+@media (max-width: 768px) {
+  .cursor {
+    display: none;
+  }
+}
